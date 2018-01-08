@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/404error.min.css">
+    <title>404 Error</title>
+</head>
+
+<body>
+    <div class="wrapper-page">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="box-msg">
+                    <div class="wrapper-msg">
+                        <h2>ERROR 404</h2>
+                        <p>ไม่พบหน้าที่คุณกำลังค้นหาบนเว็ปไซต์ กรุณา <a href="https://www.kingpower.com">คลิกที่นี่</a> เพื่อกลับสู่หน้าหลัก</p>
+                        <hr>
+                        <p>The page you are looking for is not available. Please <a href="https://www.kingpower.com">Click here</a> for Homepage</p>
+                        <hr>
+                        <p>亲爱的顾客，您好给您造成不便请您谅解，请于系统调试后 <a href="https://www.kingpower.com">再购买</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            function setHeight() {
+                windowHeight = $(window).innerHeight();
+                $('.box-msg').css('min-height', windowHeight);
+            };
+            setHeight();
+
+            $(window).resize(function() {
+                setHeight();
+            });
+        });
+    </script>
+</body>
+
+</html>

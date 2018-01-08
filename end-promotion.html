@@ -1,0 +1,46 @@
+<html>
+<head>
+    <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/end-promotion.min.css">
+    <title>End Promotion</title>
+</head>
+<body>
+    <div class="wrapper-page">
+        <div class="row">
+            <div class="col-sm-6 offset-sm-6">
+                <div class="box-msg float-right">
+                    <div class="wrapper-msg">
+                        <h2>กิจกรรม/โปรโมชั่น สิ้นสุดแล้ว</h2>
+                        <p>โปรดติดตามโปรโมชั่นพิเศษ และกิจกรรมดีๆได้ที่ KingPower.com</p>
+                        <hr>
+                        <p>The Promotion / Activity Already Ends Please visit KingPower.com for any other special promotion / activities.</p>
+                        <hr>
+                        <p>促销活动已经结束啦 更多优惠活动，请关注 KingPower.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- End -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            function setHeight() {
+                windowHeight = $(window).innerHeight();
+                $('.box-msg').css('min-height', windowHeight);
+            };
+            setHeight();
+
+            $(window).resize(function() {
+                setHeight();
+            });
+        });
+    </script>
+</body>
+</html>
